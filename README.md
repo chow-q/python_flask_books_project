@@ -10,5 +10,5 @@ from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired
 
 效果图：
+![image](https://user-images.githubusercontent.com/73530205/125425609-0db1223d-0e10-460f-acbd-1c28490b3ac7.png)
 
-![image](https://user-images.githubusercontent.com/73530205/125425347-ec713b41-dbfa-4f0a-bf8b-8c563fba04cf.png)
