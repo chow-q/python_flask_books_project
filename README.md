@@ -9,6 +9,14 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired
 
+创建数据：
+打开这个配置即可：
+if __name__=='__main__':
+    #db.drop_all()
+    #db.create_all()
+    app.run()
+
 效果图：
+
 ![image](https://user-images.githubusercontent.com/73530205/125425609-0db1223d-0e10-460f-acbd-1c28490b3ac7.png)
 
