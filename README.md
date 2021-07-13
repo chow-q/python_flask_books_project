@@ -1,22 +1,34 @@
 # python_flask_books_project
-目的：
-用python 的web框架flask和mysql实现书籍的增删改查。
+Introduction:
 
-涉及模块
+In python web framework flask and mysql implementation books to add and delete.
+
+Involving module:
+
 from flask import Flask,render_template,request,flash,redirect,url_for
+
 from flask_sqlalchemy import SQLAlchemy
+
 from flask_wtf import FlaskForm
+
 from wtforms import StringField, PasswordField, SubmitField
+
 from wtforms.validators import DataRequired
 
-创建数据：
-打开这个配置即可：
-if __name__=='__main__':
-    #db.drop_all()
-    #db.create_all()
-    app.run()
 
-效果图：
+Database：
+uncomment：
+
+if __name__=='__main__':
+
+    #db.drop_all()
+    
+    #db.create_all()
+    
+    app.run()
+    
+
+example：
 
 ![image](https://user-images.githubusercontent.com/73530205/125425609-0db1223d-0e10-460f-acbd-1c28490b3ac7.png)
 
